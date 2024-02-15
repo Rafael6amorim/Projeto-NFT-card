@@ -1,0 +1,98 @@
+main{
+    height:100vh;
+    background-color: var(--Very-dark-blue-main);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+.container{
+    background-color: var(--Very-dark-blue-card);
+    width: 260px;
+    height: 415px;
+    border-radius:10px ;
+}
+.container .imagem-principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.imagem-principal img{
+    height: 220px;
+    width: 220px;
+    border-radius: 5px;
+}
+/* .imagem-principal img:hover{
+    background-image: url(../images/icon-view.svg) center center no-repeat;
+} */
+
+.container .informacoes{
+    margin: 0 20px;
+}
+.container .informacoes h4{
+    color: var(--White);
+    margin-top: 15px;
+}
+.container .informacoes p{
+    color: var(--Very-dark-blue-line);
+    max-width: 220px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.container .informacoes .descricoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.container .informacoes .descricoes .th{
+    color: var(--Cyan);
+    display:flex ;
+    align-items: center;
+    font-size: 12px;
+}
+.container .informacoes .descricoes .th::before{
+    content: "";
+    background: url(../images/icon-ethereum.svg) center center no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    padding-right: 5px;
+}
+.container .informacoes .descricoes .dias{
+    color: var(--Soft-blue);
+    display:flex ;
+    align-items: center;
+    font-size: 12px;
+}
+.container .informacoes .descricoes .dias::before{
+    content: "";
+    background: url(../images/icon-clock.svg) center center no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+hr{
+    margin: 10px 20px;
+}
+
+.container .rodape{
+    margin: 0 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.container .rodape img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+.container .rodape p{
+    padding-left: 10px;
+    color: var(--Very-dark-blue-line);
+}
+.container .rodape span{
+    color: var(--White);
+}
